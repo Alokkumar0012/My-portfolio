@@ -1,0 +1,17 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+
+/* @tailwind directives ab yahan nahi chahiye kyunki CDN use ho raha hai */
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Agar aapne custom keyframe animations index.css mein define kiye the, 
+   toh unhe yahan rakh sakte hain, ya phir hamesha HTML file ke <style> tag mein.
+   Lekin abhi ke liye simplicity ke liye, aapke components ke andar ki Tailwind classes 
+   CDN se hi kaam karengi. */
+
+   #particles-js {
+  z-index: -10;
+}
