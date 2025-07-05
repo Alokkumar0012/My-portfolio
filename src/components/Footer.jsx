@@ -102,7 +102,7 @@ const Footer = () => {
       </div>
       {/* Designed By text at the very bottom */}
       <div className="border-t border-gray-700 dark:border-gray-300 mt-8 pt-4 text-center text-sm text-gray-400 dark:text-gray-600">
-        Designed With ❤️ By Alok Kumar
+        Designed By❤️Alok Kumar
       </div>
     </footer>
   );
