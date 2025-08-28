@@ -61,7 +61,7 @@ const Footer = () => {
           <h3 className="text-2xl font-bold text-yellow-400 mb-4 dark:text-yellow-600">Contact Info</h3>
           <ul className="space-y-3">
             <li className="flex items-center justify-center md:justify-start text-gray-300 dark:text-gray-700">
-              <Phone size={20} className="mr-3 text-yellow-400 dark:text-yellow-600" /> +91 7739911081
+              <Phone size={20} className="mr-3 text-yellow-400 dark:text-yellow-600" /> +91-7739911081
             </li>
             <li className="flex items-center justify-center md:justify-start text-gray-300 dark:text-gray-700">
               <Mail size={20} className="mr-3 text-yellow-400 dark:text-yellow-600" /> alokkumarpatel13@gmail.com {/* Mail icon add kiya gaya hai */}
@@ -94,7 +94,10 @@ const Footer = () => {
               href="#contact" // Replace with a chat link if you implement live chat
               className="text-gray-400 hover:text-yellow-400 transition duration-300 dark:text-gray-600 dark:hover:text-yellow-600"
               aria-label="Live Chat"
-            >
+            >               
+      
+ 
+ 
               <MessageSquare size={28} />
             </a> */}
           </div>
@@ -108,4 +111,6 @@ const Footer = () => {
   );
 };
 
+
+    
 export default Footer;
