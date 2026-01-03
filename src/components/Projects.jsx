@@ -115,6 +115,21 @@ const Projects = () => {
       //   link: "https://chatwadi.vercel.app/",
       //   image: "./images/d.png" // Placeholder image
       // },
+    {
+      id: 5,
+      title: "Top Ten Classes",
+      description: "We are committed to providing the best education..",
+      link: "https://your-link.com",
+      image: "./images/e.png" // Apni image ka sahi path dein
+    },
+    {
+      id: 6,
+      title: "Ek Aur Project",
+      description: "Apne chathe (6th) project ki details yahan likhein.",
+      link: "https://your-link.com",
+      image: "./images/f.png" // Apni image ka sahi path dein
+    },
+  ];
   ];
 
   return (
