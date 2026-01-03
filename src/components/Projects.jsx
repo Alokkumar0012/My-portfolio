@@ -112,16 +112,16 @@ const Projects = () => {
       id: 5,
       title: "Top Ten Classes",
       description: "We are committed to providing the best education..",
-      link: "https://your-link.com",
+      link: "https://top-ten-classes.vercel.app/",
+      image: "./images/f.png" // Apni image ka sahi path dein
+    },
+    {
+      id: 6,
+      title: "Alone Kitchen",
+      description: "Alone Kitchen is a modern, responsive restaurant website designed with a sleek UI to showcase a delicious digital menu and provide a premium user experience.",
+      link: "https://alone-kitchen.vercel.app/",
       image: "./images/e.png" // Apni image ka sahi path dein
     },
-    // {
-    //   id: 6,
-    //   title: "Ek Aur Project",
-    //   description: "Apne chathe (6th) project ki details yahan likhein.",
-    //   link: "https://your-link.com",
-    //   image: "./images/f.png" // Apni image ka sahi path dein
-    // },
   ];
 
   return (
