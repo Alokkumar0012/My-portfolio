@@ -129,17 +129,29 @@ const Contact = () => {
             </div>
             {/* Submit button with icon */}
             <button
-              type="submit"
-              className="w-full bg-yellow-500 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg
-                         hover:bg-yellow-400 transform hover:scale-105 transition duration-300 ease-in-out
-                         focus:outline-none focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-70
-                         dark:bg-yellow-600 dark:hover:bg-yellow-500 dark:text-white dark:focus:ring-yellow-600
-                         flex items-center justify-center space-x-2" // Icon aur text ke beech space
-              disabled={messageStatus === 'sending'}
-            >
-              <span>{messageStatus === 'sending' ? 'Sending...' : 'Submit'}</span>
-              {!messageStatus || messageStatus === 'success' || messageStatus === 'error' ? <Send size={20} /> : null} {/* Icon based on status */}
-            </button>
+  type="submit"
+  disabled={messageStatus === 'sending'}
+  className="w-full bg-yellow-500 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg
+             hover:bg-yellow-400 transform hover:scale-105 transition duration-300 ease-in-out
+             focus:outline-none focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-70
+             dark:bg-yellow-600 dark:hover:bg-yellow-500 dark:text-white
+             flex items-center justify-center gap-3" 
+>
+  {/* Text aur Icon ek hi level par rahenge */}
+  <span className="leading-none">
+    {messageStatus === 'sending' ? 'Sending...' : 'Submit'}
+  </span>
+
+  {/* Icon tabhi dikhega jab sending state na ho */}
+  {messageStatus !== 'sending' && (
+    <Send size={18} className="shrink-0 transition-transform" />
+  )}
+
+  {/* Agar aap loading spinner dikhana chahte hain sending ke waqt */}
+  {messageStatus === 'sending' && (
+    <div className="animate-spin h-5 w-5 border-2 border-gray-900 border-t-transparent rounded-full"></div>
+  )}
+</button>
 
             {/* Message status feedback */}
             {messageStatus === 'success' && (
