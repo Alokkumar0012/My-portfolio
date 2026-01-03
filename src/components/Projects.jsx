@@ -2,7 +2,7 @@
 import React, { useRef, useEffect, useState } from "react";
 // Lucide React se Laptop icon import karein
 import { Laptop } from 'lucide-react';
-
+ 
 // Ek alag component banate hain har Project Card ke liye
 // Taki har card apni animation state ko manage kar sake
 const ProjectCard = ({ project, index }) => {
