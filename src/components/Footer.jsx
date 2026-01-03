@@ -3,7 +3,7 @@ import React from "react";
 // Lucide React se icons import karein, ab Mail icon bhi shamil hai
 import { Phone, Mail, MapPin, Linkedin, Github, MessageSquare } from 'lucide-react';
 
-
+ 
 const Footer = () => {
   return (
     // Footer section ka main container.
