@@ -113,14 +113,14 @@ const Projects = () => {
       title: "Top Ten Classes",
       description: "We are committed to providing the best education..",
       link: "https://top-ten-classes.vercel.app/",
-      image: "./images/f.jpg" // Apni image ka sahi path dein
+      image: "./images/e.jpg" // Apni image ka sahi path dein
     },
     {
       id: 6,
       title: "Alone Kitchen",
       description: "Alone Kitchen is a modern, responsive restaurant website designed with a sleek UI to showcase a delicious digital menu and provide a premium user experience.",
       link: "https://alone-kitchen.vercel.app/",
-      image: "./images/e.jpg" // Apni image ka sahi path dein
+      image: "./images/f.jpg" // Apni image ka sahi path dein
     },
   ];
 
