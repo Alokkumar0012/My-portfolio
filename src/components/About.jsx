@@ -53,6 +53,7 @@ const About = () => {
     { name: "MongoDB", icon: Database },
     { name: "MySQL", icon: Database },
     { name: "Netlify", icon: Globe },
+    { name: "Vercel", icon: Globe },
     { name: "GitHub", icon: Github },
   ];
 
