@@ -7,6 +7,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop"; // ScrollToTop component ko import karein
 // ParticlesBackground ko ab yahan import nahi kiya ja raha hai kyunki woh Hero.jsx mein hoga
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
           <Contact />
         </main>
         <Footer />
+
+         <ScrollToTop />
       </div>
     </div>
   );
